@@ -7,7 +7,7 @@
     <ProjectGuid>{96CDA5AF-ED89-49DD-9D27-6B11D145501F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>RestSharp.Net20</RootNamespace>
+    <RootNamespace>RestSharp</RootNamespace>
     <AssemblyName>RestSharp.Net20</AssemblyName>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -299,18 +299,6 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup />
-  <ItemGroup>
-    <Content Include="..\RestSharp\T4Helper\T4Helper.tt">
-      <Link>T4Helper\T4Helper.tt</Link>
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>T4Helper.log</LastGenOutput>
-    </Content>
-    <Content Include="..\RestSharp\T4Helper\T4Toolbox.tt">
-      <Link>T4Helper\T4Toolbox.tt</Link>
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>T4Toolbox.cs</LastGenOutput>
-    </Content>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
